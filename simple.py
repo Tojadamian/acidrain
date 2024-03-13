@@ -10,7 +10,6 @@ while True:
             base = float(base)
             exponent = float(exponent.replace('(', '').replace(')', ''))
             concentration = base ** exponent
-            exponentconcentration = float(concentration)
 
     # funkcja zwracające pH na podstawie stężenia molowego i sprawdz czy pH mieści się w zakresie 0-14
     def ph_from_concentration(concentration):
